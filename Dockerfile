@@ -1,9 +1,9 @@
-FROM openjdk
-  
-WORKDIR /application
+FROM openjdk  
 
-COPY Abdelaziz.java .
+WORKDIR /application  
 
-RUN javac Abdelaziz.java
+COPY Abdelaziz.java .  
 
-CMD java Abdelaziz
+RUN javac Abdelaziz.java  
+
+CMD ["java", "Abdelaziz"]
