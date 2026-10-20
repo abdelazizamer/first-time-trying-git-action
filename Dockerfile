@@ -6,4 +6,4 @@ COPY Abdelaziz.java .
 
 RUN javac Abdelaziz.java  
 
-CMD ["java", "Abdelaziz"]
+CMD ["java", "task"]
